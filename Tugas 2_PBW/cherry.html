@@ -1,0 +1,24 @@
+<!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function getUserData() {
+            var name = prompt("Masukkan Nama Anda:");
+            var nim = prompt("Masukkan NIM Anda:");
+            document.getElementById("output").innerHTML = "Nama: " + name + "<br>NIM: " + nim;
+        }
+    </script>
+</head>
+<body onload="getUserData()">
+    <div class="container">
+        <h1>Terima Kasih!</h1>
+        <div id="output" class="output"></div>
+    </div>
+</body>
+</html>
+
+
